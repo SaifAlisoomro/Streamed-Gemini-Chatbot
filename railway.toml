@@ -1,0 +1,6 @@
+[build]
+# Python build settings
+builder = "NIXPACKS"
+
+[start]
+cmd = "chainlit run main.py --port $PORT"
